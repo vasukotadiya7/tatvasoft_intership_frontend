@@ -14,8 +14,8 @@ import {
 })
 export class ClientService {
   constructor(private http: HttpClient) {}
-  apiUrl: string = 'http://localhost:5140/api';
-  imageUrl: string = 'http://localhost:5140';
+  apiUrl: string = 'https://tatvasoft-internship-backend.onrender.com/api';
+  imageUrl: string = 'https://tatvasoft-internship-backend.onrender.com';
 
   //HomePage
   MissionList(userId: any): Observable<Mission[]> {

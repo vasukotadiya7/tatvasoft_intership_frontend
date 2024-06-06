@@ -17,8 +17,8 @@ export class AdminsideServiceService {
     public router: Router
   ) {}
   // apiUrl:string='http://localhost:63943/api';
-  apiUrl: string = 'http://localhost:5140/api';
-  imageUrl: string = 'http://localhost:5140';
+  apiUrl: string = 'https://tatvasoft-internship-backend.onrender.com/api';
+  imageUrl: string = 'https://tatvasoft-internship-backend.onrender.com';
 
   //User
   UserList(): Observable<any[]> {

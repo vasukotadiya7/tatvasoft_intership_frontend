@@ -7,8 +7,9 @@ import { JwtHelperService } from '@auth0/angular-jwt';
   providedIn: 'root',
 })
 export class AdminloginService {
-  apiUrl: string = 'http://localhost:5140/api/Login';
-  imageUrl: string = 'http://localhost:5140';
+  apiUrl: string =
+    'https://tatvasoft-internship-backend.onrender.com/api/Login';
+  imageUrl: string = 'https://tatvasoft-internship-backend.onrender.com';
 
   currentUser: BehaviorSubject<any> = new BehaviorSubject(null);
   currentUserName: BehaviorSubject<any> = new BehaviorSubject(null);
